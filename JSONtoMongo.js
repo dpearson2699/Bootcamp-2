@@ -29,7 +29,7 @@ fs.readFile('listings.json', 'utf8', function(err, data) {
             if(err){
                 console.error("Error Saving Listing to Database: " + JSON.stringify(err));
             }
-            console.log("ID: " + entry._id);
+            console.log("ID: " + entry.code);
         });
     });
 });
